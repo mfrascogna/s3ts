@@ -1,0 +1,55 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+ 
+</div>
+<h2>Here are some links to help you start: </h2>
+
+
+
+
+
+<div>
+ 
+  <!--Devices List -->
+
+ 
+    <span>{{s3t.name}}</span>
+ 
+ 
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of HeroesAA{{1+1}}</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation{{this.s3ts.length}}</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog{{this.s3ts[0].name}}</a></h2>
+  </li>
+  
+</ul>
+ 
+<ul>
+
+<li *ngFor="let device of devices">{{s3t.name}}</li>
+
+</ul>
+
+
+<ul>
+
+<li *ngFor="let device of devices">666</li>
+
+</ul>
+
+
+</div>
+
+
+<p *ngFor="let s3t of s3ts; let i = index">
+  Row {{i}} s3t.name
+</p>  
+

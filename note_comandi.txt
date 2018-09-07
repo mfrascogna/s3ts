@@ -1,0 +1,13 @@
+
+Per avviare il server stub : 
+
+>>> json-server --watch server\db.json
+
+
+
+Per avviare il servizio sulla porta 4200:
+
+npm start
+
+e poi provare la pagina su : http://localhost:4200/
+
