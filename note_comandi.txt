@@ -1,4 +1,8 @@
 
+Il progetto fa riferimento alla pagina:
+http://training.fabiobiondi.io/2018/01/28/angular-5-introduzione-al-framework-consigli-best-practices/
+
+
 Per avviare il server stub : 
 
 >>> json-server --watch server\db.json
