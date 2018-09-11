@@ -8,22 +8,25 @@ import { NgForm } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 's3ts';
    
-  int nCountItem=0;  
+  nCountItem=0;  
   s3ts: s3t[];
  
  
   constructor(private http: HttpClient) {
 		this.getAllS3ts();
-  }
+  };
  
   getAllS3ts() {
-    this.http.get<s3t[]>('http://localhost:3000/getAlls3ts')
-      .subscribe(result => this.s3ts = result);
+    
+	this.http.get<s3t[]>('http://localhost:3000/getAlls3ts')
+		.subscribe(result => this.s3ts = result);
 	  
 	  console.log(this.s3ts); 
+	  
   }
    
   
